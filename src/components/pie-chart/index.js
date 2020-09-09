@@ -53,11 +53,10 @@ const PieChart = (props) => {
           title: {
             display: true,
             text: "Country wise corona cases",
-            fontSize: 20,
+            fontSize: 25,
           },
           legend: {
             display: false,
-            //position: "chartArea",
           },
         }}
       />

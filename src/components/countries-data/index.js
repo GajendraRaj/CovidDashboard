@@ -9,8 +9,8 @@ const CountriesData = (props) => {
         <thead style={{ color: "Brown", backgroundColor: "Grey" }}>
           <tr>
             <th>Country</th>
-            <th>New Case</th>
-            <th>Total Case</th>
+            <th>New Cases</th>
+            <th>Total Cases</th>
             <th>Total Deaths</th>
             <th>Total Recovered</th>
             <th>Date</th>

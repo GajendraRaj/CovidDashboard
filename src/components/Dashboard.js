@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PieChart from "./pie-chart";
 import CountriesData from "./countries-data";
 import GlobalData from "./global-data/index";
-import { fetchData } from "../../api/services";
+import { fetchData } from "../api/services";
 
 const Dashboard = () => {
   const initialState = {
@@ -14,7 +14,6 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchCovieData = async () => {
       const data = await fetchData();
-      //console.log(data);
       setState((prevState) => {
         return {
           ...prevState,
